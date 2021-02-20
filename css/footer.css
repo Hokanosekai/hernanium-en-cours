@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    position: relative;
+    padding: 1rem 3rem;
+    background-color: #F39B06;
+}
+
+footer .footer-links{
+    display: flex;
+    list-style: none;
+}
+
+footer .footer-link{
+    padding-right: 3rem;
+    color: white;
+    transition: color 0.6s ease-out;
+}
+
+footer .footer-link:hover{
+    color: #000000;
+}
+
+footer .copy-right{
+    display: flex;
+    align-items: center;
+}
+
+.copy-right-icon{
+    height: 20px;
+}
+
+.copy-right-text{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    margin: auto;
+}

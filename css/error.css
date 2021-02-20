@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.hero{
+    background: url("../images/dragon_spawn.png");
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.background-opacity{
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.hero-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-h1{
+    font-size: 60px;
+}
+
+.hero-content p{
+    font-size: 30px;
+}

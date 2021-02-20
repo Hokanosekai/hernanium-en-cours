@@ -1,0 +1,2 @@
+gradient F39B06 - F0E00B
+background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
